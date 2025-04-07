@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Hosting on Patrick Canal</title>
+    <link>http://localhost:1313/tags/hosting/</link>
+    <description>Recent content in Hosting on Patrick Canal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Patrick Canal</copyright>
+    <lastBuildDate>Mon, 07 Apr 2025 19:16:28 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/hosting/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Building my website in Hugo</title>
+      <link>http://localhost:1313/posts/building-my-website-in-hugo/</link>
+      <pubDate>Mon, 07 Apr 2025 19:16:28 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/building-my-website-in-hugo/</guid>
+      <description><![CDATA[<p>I always wanted a website/blog to write articles about what I like, so today I decided to make one!</p>
+<p>After buying a domain and setting up the server I had just to decide what to write the website with.</p>
+<h2 id="hugo">Hugo</h2>
+<p>As a tech stack I wanted something simple and easy to mantain,
+<a href="https://gohugo.io/">Hugo</a> makes everything so easy and painless that it is too good to be true.</p>
+<p>Just install it and then write in the terminal</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site &lt;website-name&gt; <span style="color:#f92672">&amp;&amp;</span> cd &lt;website-name&gt;
+</span></span></code></pre></div><p>to generate the template, install a good-looking theme from the <a href="https://themes.gohugo.io/themes/">themes page</a> on the Hugo website, in my case Ficurinia</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/patrickacciaioli/ficurinia themes/ficurinia
+</span></span></code></pre></div><p>add the following line inside of <code>hugo.toml</code> with the greatest editor ever lived (Vim)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;ficurinia&#34;</span>
+</span></span></code></pre></div><p>Start the server with</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server 
+</span></span></code></pre></div><p>and you are ready to go. A complete blog in seconds.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Building a personal website with Hugo was faster and easier than I could have ever done in plain HTML. With minimal setup and maximum flexibility, Hugo proved to be the perfect choice for my blog. Now, I can focus on writing posts worrying about the infamous <a href="https://en.wikipedia.org/wiki/HTML">Hypertext Markup Language</a>.</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

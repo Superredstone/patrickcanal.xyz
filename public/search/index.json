@@ -1,0 +1,13 @@
+
+{
+    
+    
+    
+    
+        
+        
+        
+    
+    "pages": [{"date":"2025-04-07","image":"","imageAlt":"","link":"http://localhost:1313/posts/building-my-website-in-hugo/","summary":"\u003cp\u003eI always wanted a website/blog to write articles about what I like, so today I decided to make one!\u003c/p\u003e\n\u003cp\u003eAfter buying a domain and setting up the server I had just to decide what to write the website with.\u003c/p\u003e\n\u003ch2 id=\"hugo\"\u003eHugo\u003c/h2\u003e\n\u003cp\u003eAs a tech stack I wanted something simple and easy to mantain,\n\u003ca href=\"https://gohugo.io/\"\u003eHugo\u003c/a\u003e makes everything so easy and painless that it is too good to be true.\u003c/p\u003e\n\u003cp\u003eJust install it and then write in the terminal\u003c/p\u003e","tags":["hosting","website"],"text":"i always wanted a website/blog to write articles about what i like, so today i decided to make one!\nafter buying a domain and setting up the server i had just to decide what to write the website with.\nhugo as a tech stack i wanted something simple and easy to mantain, hugo makes everything so easy and painless that it is too good to be true.\njust install it and then write in the terminal\nhugo new site \u0026lt;website-name\u0026gt; \u0026amp;\u0026amp; cd \u0026lt;website-name\u0026gt; to generate the template, install a good-looking theme from the themes page on the hugo website, in my case ficurinia\ngit clone https://github.com/patrickacciaioli/ficurinia themes/ficurinia add the following line inside of hugo.toml with the greatest editor ever lived (vim)\ntheme = \u0026#34;ficurinia\u0026#34; start the server with\nhugo server and you are ready to go. a complete blog in seconds.\nconclusion building a personal website with hugo was faster and easier than i could have ever done in plain html. with minimal setup and maximum flexibility, hugo proved to be the perfect choice for my blog. now, i can focus on writing posts worrying about the infamous hypertext markup language.\n","title":"Building my website in Hugo"}]
+}
+
