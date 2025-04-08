@@ -7,8 +7,8 @@ copyright = "Patrick Canal"
 [params]
 author = "Patrick Canal"
 
-logo = "logo.svg"
-svgicon = "logo.svg"
+logo = "/logo.svg"
+svgicon = "/logo.svg"
 
 enableJumbotron = true
 infiniteScrolling = true
