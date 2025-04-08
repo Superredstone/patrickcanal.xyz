@@ -32,5 +32,8 @@ hugo server
 ```
 and you are ready to go. A complete blog in seconds.
 
+![website.png](/website.png)
+(This is a recursive website 😵‍💫)
+
 ## Conclusion
 Building a personal website with Hugo was faster and easier than I could have ever done in plain HTML. With minimal setup and maximum flexibility, Hugo proved to be the perfect choice for my blog. Now, I can focus on writing posts worrying about the infamous [Hypertext Markup Language](https://en.wikipedia.org/wiki/HTML).
